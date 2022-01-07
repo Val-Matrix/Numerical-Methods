@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Numerical Methods", "Numerical Methods.vcxproj", "{F1E56AE7-A7C3-4833-B1AB-664280D8A47F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Newton-Raphson Method", "..\Newton-Raphson Method\Newton-Raphson Method.vcxproj", "{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polynomial Regression", "..\Polynomial Regression\Polynomial Regression.vcxproj", "{91942DF8-DC54-4D49-BB7B-460835FE09B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{F1E56AE7-A7C3-4833-B1AB-664280D8A47F}.Release|x64.Build.0 = Release|x64
 		{F1E56AE7-A7C3-4833-B1AB-664280D8A47F}.Release|x86.ActiveCfg = Release|Win32
 		{F1E56AE7-A7C3-4833-B1AB-664280D8A47F}.Release|x86.Build.0 = Release|Win32
+		{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}.Debug|x64.ActiveCfg = Debug|x64
+		{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}.Debug|x64.Build.0 = Debug|x64
+		{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}.Debug|x86.Build.0 = Debug|Win32
+		{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}.Release|x64.ActiveCfg = Release|x64
+		{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}.Release|x64.Build.0 = Release|x64
+		{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}.Release|x86.ActiveCfg = Release|Win32
+		{C1C0EABD-8DA4-4CBD-9267-34C1D41FCD47}.Release|x86.Build.0 = Release|Win32
+		{91942DF8-DC54-4D49-BB7B-460835FE09B9}.Debug|x64.ActiveCfg = Debug|x64
+		{91942DF8-DC54-4D49-BB7B-460835FE09B9}.Debug|x64.Build.0 = Debug|x64
+		{91942DF8-DC54-4D49-BB7B-460835FE09B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{91942DF8-DC54-4D49-BB7B-460835FE09B9}.Debug|x86.Build.0 = Debug|Win32
+		{91942DF8-DC54-4D49-BB7B-460835FE09B9}.Release|x64.ActiveCfg = Release|x64
+		{91942DF8-DC54-4D49-BB7B-460835FE09B9}.Release|x64.Build.0 = Release|x64
+		{91942DF8-DC54-4D49-BB7B-460835FE09B9}.Release|x86.ActiveCfg = Release|Win32
+		{91942DF8-DC54-4D49-BB7B-460835FE09B9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

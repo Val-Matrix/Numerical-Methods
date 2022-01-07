@@ -18,11 +18,5 @@
     <ClCompile Include="LinearEqn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NewtonRaph.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PolyRegress.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
