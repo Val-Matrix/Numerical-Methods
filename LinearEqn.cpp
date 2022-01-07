@@ -24,7 +24,7 @@ int main()
 				a[i][j] = a[i][j] - mult * a[k][j];
 			}
 		}
-		cout << "----------------------------------------------" << endl;
+		cout << "------------------------------------------------" << endl;
 		cout << "k = " << k << ":" << endl;
 		cout << "--------" << endl;
 		
@@ -41,8 +41,7 @@ int main()
 		cout << endl;
 	}
 	
-	// Backsubstitution
-	x[n - 1] = b[n - 1] / a[n - 1][n - 1];
+	// Backward substitution
 	for (i = n - 1; i > -1; --i)
 	{
 		sum = 0;
@@ -52,8 +51,8 @@ int main()
 	}
 	
 	// Display the solution: x0, x1, x2
-	cout << "----------------------------------------------" << endl;
-	cout << "The solutions..." << endl;
+	cout << "------------------------------------------------" << endl;
+	cout << "Solution:" << endl;
 	for (i = 0; i < n; ++i)
 		cout << "x[" << i << "] = " << x[i] << endl;
 	return 0;
