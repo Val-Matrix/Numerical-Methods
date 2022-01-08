@@ -11,8 +11,8 @@ int main()
 	char choice;
 
 	cout << "LINEAR ALGEBRAIC EQUATION SOLVING USING NAIVE GAUSS ELIMINATION, Ax = B (4 EQUATIONS)" << endl;
-	
 	cout << "-------------------------------------------------------------------------------------" << endl;
+	
 	do {
 		cout << "Please key in the coefficients for matrix A." << endl;
 		for (i = 0; i < n; ++i)
