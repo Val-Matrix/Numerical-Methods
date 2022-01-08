@@ -95,6 +95,7 @@ int main()
 				cout << "Value of the function at this estimate, f(" << root << ") = " << f(root, a, b, c, d) << endl;
 				cout << "Number of iterations = " << num_iter << endl;
 				cout << "----------------------------------------------------" << endl;
+				break;
 			}
 
 			// Compute new estimate of the root
