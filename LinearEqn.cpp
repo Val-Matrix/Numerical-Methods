@@ -22,6 +22,17 @@ int main()
 		}
 	}
 
+	cout << endl << "Continue with this matrix A?" << endl;
+	for (i = 0; i < n; ++i)
+	{
+		for (j = 0; j < n; ++j)
+		{
+			cout.width(9);
+			cout << a[i][j];
+		}
+		cout << endl;
+	}
+
 	cout << "Please key in the coefficients for matrix B." << endl;
 	for (i = 0; i < n; ++i)
 	{
