@@ -34,7 +34,7 @@ int main()
 
 	// Saving data to file
 	ofstream outputFile;
-	outputFile.open("C:\Users\Loh Lee Yew\Downloads\KKKQ2123\New XLS Workshee.csv");
+	outputFile.open("C:\\Users\\Loh Lee Yew\\Downloads\\KKKQ2123\\New XLS Workshee.csv");
 	if (!outputFile.is_open())
 	{
 		cout << "Error opening file." << endl;
