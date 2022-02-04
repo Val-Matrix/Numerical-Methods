@@ -79,7 +79,7 @@ int main()
 			if (choice != '1' && choice != '2')
 				cout << "Invalid input. ";
 		} while (choice != '1' && choice != '2');
-	} while (choice == '1')
+	} while (choice == '1');
 	
 	return 0;
 }
