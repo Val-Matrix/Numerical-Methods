@@ -1,16 +1,18 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-const int MAXSIZE = 4;
+const int SIZE = 4;
 
 int main()
 {
 	double mult, sum;
-	int i, j, k;
-	int n = 4;
-	double a[MAXSIZE][MAXSIZE] = { { 225, 0, -25, 0 }, { 0, 175, 0, -125 }, { -225, 0, 275, -50 }, { 0, -25, -250, 275 } };
-	double b[MAXSIZE] = { 1400, 100, 2000, 0 };
-	double x[MAXSIZE];
+	int i, j, k, n = SIZE;
+	double a[SIZE][SIZE] = { { 225, 0, -25, 0 }, { 0, 175, 0, -125 }, { -225, 0, 275, -50 }, { 0, -25, -250, 275 } };
+	double b[SIZE] = { 1400, 100, 2000, 0 };
+	double x[SIZE];
+	
+	cout << "LINEAR ALGEBRAIC EQUATION SOLVING USING NAIVE GAUSS ELIMINATION, Ax = B (4 EQUATIONS)" << endl;
+	cout << "-------------------------------------------------------------------------------------" << endl;
 	
 	// Forward elimination
 	for (k = 0; k < n; ++k)
