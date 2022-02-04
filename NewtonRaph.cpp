@@ -13,6 +13,7 @@ int main()
 	char choice;
 
 	cout << "ROOTS OF AN CUBIC EQUATION USING NEWTON-RAPHSON METHOD" << endl;
+	cout << "f(x) = 0.5x^3 - 4x^2 + 6x - 2" << endl;
 	cout << "------------------------------------------------------" << endl;
 	
 	do {
