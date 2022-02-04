@@ -12,7 +12,6 @@ int main()
 	double x[SIZE];
 	
 	cout << "LINEAR ALGEBRAIC EQUATION SOLVING USING NAIVE GAUSS ELIMINATION, Ax = B (4 EQUATIONS)" << endl;
-	cout << "-------------------------------------------------------------------------------------" << endl;
 	
 	// Forward elimination
 	for (k = 0; k < n; ++k)
