@@ -5,7 +5,7 @@
 LinearEqn.cpp  
 > Question 1's simultaneous equation solving  
 
-#  
+  
 NewtonRaph.cpp, NewtonRaph-Plot.m  
 > Question 2's root finding  
 
