@@ -1,6 +1,6 @@
 # Numerical-Methods
 
-## This repository contains C++, MATLAB script codes and other relevant files for the Numerical Methods PBL  
+### This repository contains C++, MATLAB script codes and other relevant files for the Numerical Methods PBL  
 
 LinearEqn.cpp  
 > Question 1's simultaneous equation solving  
