@@ -9,4 +9,4 @@ NewtonRaph.cpp, NewtonRaph-Plot.m
 > Question 2's root finding  
 
 PolyRegress.cpp, Polynomial Regression Result.csv, PolyRegress-Plot (ver. 1).m, PolyRegress-Plot (ver. 2).m  
-> Question 3's curve fitting   
+> Question 3's polynomial curve fitting   
