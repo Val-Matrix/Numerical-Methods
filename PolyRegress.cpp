@@ -36,7 +36,7 @@ int main()
 	x[14] = 9.8; y[14] = 2.7;
 
 	ofstream outputFile;
-	outputFile.open("C:\Polynomial Regression Result.csv");
+	outputFile.open("C:\\Users\\Valentino\\Desktop\\Polynomial Regression Result.csv");
 	if (!outputFile.is_open())
 	{
 		cout << "Error opening file." << endl;
@@ -154,7 +154,7 @@ void gauss_pivot(double x[][MAXSIZE], double y[], double *ptr_a0, double *ptr_a1
 		{
 			if (fabs(x[i][k]) > fabs(x[k][k]))
 			{
-				// Interchance row containing maximum element with the pivot row
+				// Interchange row containing maximum element with the pivot row
 				for (l = 0; l < MAXSIZE; ++l)
 				{
 					temp = x[i][l];
