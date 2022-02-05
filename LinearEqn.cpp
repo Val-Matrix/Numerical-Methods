@@ -43,6 +43,7 @@ int main()
 	}
 	
 	// Backward substitution
+	x[n - 1] = b[n - 1] / a[n - 1][n - 1];
 	for (i = n - 1; i > -1; --i)
 	{
 		sum = 0;
